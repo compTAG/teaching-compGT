@@ -1,0 +1,53 @@
+---
+layout: default
+title: Syllabus List
+---
+
+<script
+  type="text/javascript"
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+
+<link rel="stylesheet"
+  type="text/css"
+  href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+
+<script
+  type="text/javascript"
+  charset="utf8"
+  src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js">
+</script>
+
+<script type="text/javascript">
+  $(document).ready( function () { $('#table_id').DataTable(); } );
+</script>
+
+<div id="home">
+  <h1>Syllabus List</h1>
+  <table id="table_id" class="syllabus">
+    <thead>
+    <tr>
+      <th>Instructor</th>
+      <th>Name</th>
+      <th>Year</th>
+      <th>Institution</th>
+      <th>Department</th>
+      <th>Level</th>
+      <th>Syllabus</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for syllabus in site.data.syllabi %}
+      <tr>
+        <td>{{ syllabus.instructor }}</td>
+        <td>{{ syllabus.name }}</td>
+        <td>{{ syllabus.year }}</td>
+        <td>{{ syllabus.institution }}</td>
+        <td>{{ syllabus.department }}</td>
+        <td>{{ syllabus.level }}</td>
+        <td><a href={{ syllabus.url }}>Go to site</a> {{ syllabus.note }} </a></td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
