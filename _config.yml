@@ -1,7 +1,7 @@
 # Setup
 title: Teaching Computational Geometry and Topology
 tagline: A resource for teachers of computational geometry and topology.
-baseurl: "https://comptag.github.io/teaching-compGT/"
+baseurl: "/teaching-compGT"
 paginate: 1
 locale: "en"
 
