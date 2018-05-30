@@ -17,4 +17,3 @@ plugins:
 #Others
 markdown: kramdown
 
-theme: jekyll-theme-cayman
