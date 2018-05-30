@@ -3,8 +3,8 @@
 
 # Development
 
-The site is developed using Jekyll. For more details read about [Jekyll][1] on
-its web page.
+The site is developed using Jekyll. For more details read about
+[Jekyll](https://jekyllrb.com/) on its web page.
 
 Bug reports and pull requests are welcome on GitHub.
 
@@ -20,7 +20,3 @@ changes in the browser after a refresh, just like normal.
 
 This work is licensed under a [Creative Commons Attribution 4.0
 International](https://creativecommons.org/licenses/by/4.0/) license.
-[1]: https://jekyllrb.com/
-[2]: https://github.com/jasonlong
-[3]: https://pages.github.com/
-[4]: https://github.com/jasonlong/cayman-theme
