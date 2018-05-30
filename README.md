@@ -19,4 +19,5 @@ changes in the browser after a refresh, just like normal.
 # License
 
 This work is licensed under a [Creative Commons Attribution 4.0
-International](https://creativecommons.org/licenses/by/4.0/) license.
+International](https://creativecommons.org/licenses/by/4.0/) license.  Theme was
+modified from [Cayman-theme](https://github.com/jasonlong/cayman-theme)
