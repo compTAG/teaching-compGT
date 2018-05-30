@@ -1,7 +1,7 @@
 # Setup
 title: Teaching Computational Geometry and Topology
 tagline: A resource for teachers of computational geometry and topology.
-baseurl: ""
+baseurl: "/"
 paginate: 1
 locale: "en"
 
