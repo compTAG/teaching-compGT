@@ -1,14 +1,14 @@
 # Setup
-title:        Teaching Computational Geometry and Topology
-tagline:      A resource for teachers of computational geometry and topology.
-baseurl:      ""
-paginate:     1
-locale:       "en"
+title: Teaching Computational Geometry and Topology
+tagline: A resource for teachers of computational geometry and topology.
+baseurl: ""
+paginate: 1
+locale: "en"
 
 # About/contact
 author:
-  name:       David L. Millman
-  url:        http://millman.us
+  name: David L. Millman
+  url: http://millman.us
 
 # Plugins
 plugins:
