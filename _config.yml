@@ -6,9 +6,12 @@ paginate: 1
 locale: "en"
 
 # About/contact
-author:
+author1:
   name: David L. Millman
   url: http://millman.us
+author2:
+  name: Joe Mitchell
+  url: http://www.ams.sunysb.edu/~jsbm/
 
 # Plugins
 plugins:
