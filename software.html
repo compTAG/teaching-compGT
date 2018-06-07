@@ -1,0 +1,32 @@
+---
+layout: default
+title: Software And Resources
+---
+
+<script type="text/javascript">
+  $(document).ready( function () { $('#table_id').DataTable(); } );
+</script>
+
+<div id="home">
+  <h1>Software</h1>
+  <table id="table_id" class="software">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Category</th>
+      <th>Maintainers</th>
+      <th>Features</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for tool in site.data.software %}
+      <tr>
+        <td><a href={{ tool.url }}>{{ tool.name }}</a></td>
+        <td>{{ tool.category }}</td>
+        <td>{{ tool.maintainers }}</td>
+        <td>{{ tool.features }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
