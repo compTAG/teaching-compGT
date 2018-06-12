@@ -9,6 +9,7 @@ locale: "en"
 author1:
   name: David L. Millman
   url: http://millman.us
+  email: david.millman@montana.edu
 author2:
   name: Joe Mitchell
   url: http://www.ams.sunysb.edu/~jsbm/

@@ -6,9 +6,11 @@ author: <a href="http://millman.us">David L. Millman</a>
 categories: main
 ---
 
-There are two ways to create a post. The easiest is email the content of your
-post and I will format it and post it for you.  Or you can create a post by
-submitting a pull request on github.  Below are some of the Jekyll specifics.
+There are two ways to create a post. The easiest is [email][author1-email] the
+content of your post and I will format it and post it for you.  Or you can
+create a post by submitting a pull request to the [site][teaching-compGT].
+Below are some of the Jekyll specifics.
+
 
 Creating posts is very easy with Jekyll.  There are many tutorials, but, at
 their core, a post is a markdown file in the `_posts` directory.
@@ -49,3 +51,5 @@ Jekyll.
 [markdown]:  https://daringfireball.net/projects/markdown/
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
+[teaching-compGT]: https://github.com/compTAG/teaching-compGT
+[author1-email]: mailto:{{ site.author1.email }}
