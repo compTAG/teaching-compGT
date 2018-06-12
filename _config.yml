@@ -1,6 +1,6 @@
 # Setup
 title: Teaching Computational Geometry and Topology
-tagline: A resource for teachers of computational geometry and topology.
+tagline: A resource for teachers (and students) of computational geometry and topology.
 baseurl: "/teaching-compGT"
 paginate: 1
 locale: "en"
