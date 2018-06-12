@@ -18,5 +18,8 @@ author2:
 plugins:
   - jekyll-paginate
 
+# separators
+excerpt_separator: "<!--excerpt-->"
+
 #Others
 markdown: kramdown

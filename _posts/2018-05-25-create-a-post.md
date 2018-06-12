@@ -11,6 +11,7 @@ content of your post and I will format it and post it for you.  Or you can
 create a post by submitting a pull request to the [site][teaching-compGT].
 Below are some of the Jekyll specifics.
 
+<!--excerpt-->
 
 Creating posts is very easy with Jekyll.  There are many tutorials, but, at
 their core, a post is a markdown file in the `_posts` directory.

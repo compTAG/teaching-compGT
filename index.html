@@ -7,7 +7,17 @@ title: {{ site.name }}
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <h2 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+
+    <span>{{ post.date | date_to_string }}</span>
+
+    {{ post.excerpt }}
+
+    {% if post.content contains site.excerpt_separator %}
+      <a href="{{ site.baseurl }}{{ post.url }}">...Read more</a>
+    {% endif %}
     {% endfor %}
   </ul>
 </div>
