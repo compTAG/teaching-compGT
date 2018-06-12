@@ -30,7 +30,7 @@ title: Courses
         <td>{{ syllabus.institution }}</td>
         <td>{{ syllabus.department }}</td>
         <td>{{ syllabus.level }}</td>
-        <td><a href="#">snapshot</a> | <a href={{ syllabus.url }}>site</a></td>
+        <td><a href="assets/snapshots/{{ syllabus.path }}">snapshot</a> | <a href={{ syllabus.url }}>site</a></td>
       </tr>
     {% endfor %}
     </tbody>
