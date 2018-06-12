@@ -23,7 +23,6 @@ Add a header to the file in the format
 
     ---
     layout: post
-    title:  "Create a post!"
     title:  TODO_ADD_TITLE
     date:   TODO_ADD_DATE
     author: TODO_ADD_NAME
