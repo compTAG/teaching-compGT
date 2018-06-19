@@ -1,12 +1,1 @@
-name,category,maintainers,url,features
-CGAL,geometry,CGAL Project,https://www.cgal.org/,computational geometry algorithms library providing many geometric algorithms and data structures
-Ipe,geometry,Otfried Cheong,http://ipe.otfried.org/,extensible drawing editor
-Voro++,geometry,Chris Rycroft,http://math.lbl.gov/voro++/,3D Voronoi tessellations
-PHAT,topology,"Ulrich Bauer, Michael Kerber, Jan Reininghaus",https://bitbucket.org/phat-code/phat/src/master/,persistent homology
-Python Mapper,topology,Daniel Müllner and Aravindakshan Babu,http://danifold.net/mapper/index.html,tool chain using mapper algorithm
-R-TDA,topology,Jisu Kim,https://cran.r-project.org/web/packages/TDA/index.html,statistical analysis with persistent homology
-ReebGraph,topology,Yusu Wang,http://web.cse.ohio-state.edu/~yusu/papers/ReebGraph.tar.gz,randomized algorithms for building Reeb graphs
-Denali,topology,Justin Eldridge,http://denali.cse.ohio-state.edu/,contour trees
-DisPerse,topology,Thierry Sousbie,http://www2.iap.fr/users/sousbie/web/html/indexd41d.html,structure identification in presence of noise
-Gudhi,topology,Gudhi Project,http://gudhi.gforge.inria.fr,persistent homology
-JavaPlex,topology,Applied Topology,http://appliedtopology.github.io/javaplex/,persistent homology
+name,category,maintainers,url,featuresCGAL,geometry,CGAL Project,https://www.cgal.org/,computational geometry algorithms library providing many geometric algorithms and data structuresIpe,geometry,Otfried Cheong,http://ipe.otfried.org/,extensible drawing editorVoro++,geometry,Chris Rycroft,http://math.lbl.gov/voro++/,3D Voronoi tessellationsPHAT,topology,"Ulrich Bauer, Michael Kerber, Jan Reininghaus",https://bitbucket.org/phat-code/phat/src/master/,persistent homologyPython Mapper,topology,Daniel Millner and Aravindakshan Babu,http://danifold.net/mapper/index.html,tool chain using mapper algorithmR-TDA,topology,Jisu Kim,https://cran.r-project.org/web/packages/TDA/index.html,statistical analysis with persistent homologyReebGraph,topology,Yusu Wang,http://web.cse.ohio-state.edu/~yusu/papers/ReebGraph.tar.gz,randomized algorithms for building Reeb graphsDenali,topology,Justin Eldridge,http://denali.cse.ohio-state.edu/,contour treesDisPerse,topology,Thierry Sousbie,http://www2.iap.fr/users/sousbie/web/html/indexd41d.html,structure identification in presence of noiseGudhi,topology,Gudhi Project,http://gudhi.gforge.inria.fr,persistent homologyJavaPlex,topology,Applied Topology,http://appliedtopology.github.io/javaplex/,persistent homologyRecon,topology,Harish Doraiswamy,https://github.com/harishd10/recon,fast algorithm to compute Reeb graphsMSComplex,topology,"Nithin Shivashankar, Vijay Natarajan",http://vgl.csa.iisc.ac.in/mscomplex/,2D and 3D Morse-Smale complex
